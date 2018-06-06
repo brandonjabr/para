@@ -1,4 +1,4 @@
-## para - The fastest file download client for the command line.
+# para - The fastest file download client for the command line.
 
 Para is a blazing fast parallel, segmented file downloader for command line.
 In most cases, para easily maxes out the available bandwidth for your connection.
