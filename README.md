@@ -10,17 +10,23 @@ Para simply wraps around the amazing lftp client (https://github.com/lavv17/lftp
 
 ## Installation
 
-Running the following code in your terminal will install para to the `~/.bin` directory, creating it if needed, and add it to your PATH variable in `~/.bash_profile`:
+Install lftp:
+
+Mac: `brew install lftp`
+
+Linux: `sudo apt-get install lftp`
+
+Next, run the following code in your terminal to install para to the `~/.bin` directory, creating it if needed and adding it to your $PATH in `~/.bash_profile`:
 
 ```
 mkdir ~/.bin
 chmod +x para
-mv para ~/.bin
+cp para ~/.bin
 echo 'export PATH="$PATH:~/.bin"' >> ~/.bash_profile
 source ~/.bash_profile
 ```
 
-Alternatively, simply `chmod +x para` and place it in any directory on your PATH
+Alternatively, simply `chmod +x para` and place it in any directory on your $PATH
 
 ## To-do
 
