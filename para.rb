@@ -8,7 +8,7 @@ class Para < Formula
 
 def install
     system "chmod +x ./para"
-    system "chmod +x /usr/local/bin/para"
     bin.install 'para'
+    system "chmod +x /usr/local/bin/para"
   end
 end
