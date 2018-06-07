@@ -10,20 +10,18 @@ Para simply wraps around the amazing lftp client (https://github.com/lavv17/lftp
 
 ## Installation
 
-Mac OS:
+Running the following code in your terminal will install para to the `~/.bin` directory, creating it if needed, and add it to your PATH variable in `~/.bash_profile`:
 
-`brew install para`
+```
+mkdir ~/.bin
+chmod +x para
+mv para ~/.bin
+echo 'export PATH="$PATH:~/.bin"' >> ~/.bash_profile
+source ~/.bash_profile
+```
 
-Linux:
-
-1) Install lftp -- `sudo apt-get install lftp`
-2) Clone this repository, run `sudo chmod +x para` in the directory, and move the `para` bash script to any location on your PATH.
-
-## Usage
-
-Simply run `para FILE_URL` where FILE_URL is any direct link to a file, and para will download it to the current directory.
-
+Alternatively, simply `chmod +x para` and place it in any directory on your PATH
 
 ## To-do
 
-1) Add option to choose number of file segments / parallel requests (currently uses 5)
+1) Add option to choose number of file segments / parallel requests via flag (currently set to 5)
