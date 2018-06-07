@@ -28,6 +28,9 @@ source ~/.bash_profile
 
 Alternatively, simply `chmod +x para` and place it in any directory on your $PATH
 
+## Usage
+
+Run `para FILE_URL` where FILE_URL is any direct file link, (similar to wget).
 ## To-do
 
 1) Add option to choose number of file segments / parallel requests via flag (currently set to 5)
