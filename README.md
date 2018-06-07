@@ -6,7 +6,7 @@ In most cases, `para` easily maxes out the available bandwidth for your connecti
 
 ## How does it work?
 
-Para simply wraps around the amazing lftp client (https://github.com/lavv17/lftp), specifically the 'pget' command for parallel, segmented file downloading.
+Para wraps around the amazing lftp client (https://github.com/lavv17/lftp), specifically the 'pget' command for parallel, segmented file downloading.
 
 ## Installation
 
